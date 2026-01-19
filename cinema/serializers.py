@@ -60,7 +60,6 @@ class MovieDetailSerializer(serializers.ModelSerializer):
         fields = ("id", "title", "description", "duration", "genres", "actors")
 
 
-
 class MovieSessionSerializer(serializers.ModelSerializer):
 
     class Meta:
